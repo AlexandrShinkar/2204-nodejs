@@ -1,8 +1,6 @@
 dist: xenial
 group: dev
 language: nodejs
-nodejs:
-  - 16.16
 script:
   - node --version
   - node hello.js
